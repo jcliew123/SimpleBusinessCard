@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    font-family: Inter, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #23252C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-pic {
+    display: block;
+    width: 317px;
+    height: 317px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-container {
+    width: 317px;
+    padding-top: 0px;
+    background-color: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-content {
+    width: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.name {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 6px;
+}
+
+.position {
+    font-weight: 400;
+    font-size: 13px;
+    color: #F3BF99;
+    line-height: 15px;
+    letter-spacing: 0em;
+    padding-bottom: 9px;
+}
+
+.website {
+    color: #F5F5F5;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
+
+.button-container {
+    display: flex;
+    width: 247px;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.email-button {
+    padding: 9px 0px;
+    width: 115px;
+    background-color: #D1D5DB;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-content {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #374151;
+}
+
+.linkedin-button {
+    padding: 9px 0px;
+    width: 115px;
+    background-color: #5093E2;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-content {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: white;
+}
+
+.text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #F5F5F5;
+    margin-bottom: 5px;
+}
+
+.content {
+    width: 100%;
+    margin-bottom: 27px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #DCDCDC;
+}
+
+.footer {
+    width: 100%;
+    height: 64px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    color: #918E9B;
+    margin: 0px 12px;
 }
